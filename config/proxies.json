@@ -1,0 +1,11 @@
+[
+  {
+    "http": "",
+    "https": "",
+    "auth": {
+      "username": "",
+      "password": ""
+    },
+    "note": "Leave blank to disable. Add real proxies to rotate."
+  }
+]
