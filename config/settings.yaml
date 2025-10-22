@@ -1,0 +1,31 @@
+app:
+  name: "threads-post-scraper"
+  version: "1.0.0"
+
+scrape:
+  profiles:
+    - "example_user_1"
+    - "example_user_2"
+  max_posts_per_profile: 50
+  request_timeout_seconds: 15
+  retry_attempts: 3
+  retry_backoff_seconds: 1.5
+  delay_between_requests_ms: 250
+  user_agent_rotation: true
+  proxy_rotation: false
+  use_local_fallback_on_error: true
+
+output:
+  dir: "output"
+  export_json: true
+  export_csv: true
+  export_summary: true
+
+network:
+  base_url: "https://www.threads.net"
+  posts_endpoint_template: "/@{username}"
+
+logging:
+  level: "INFO"
+  file: "output/run.log"
+  json: false
