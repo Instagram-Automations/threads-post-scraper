@@ -1,0 +1,3 @@
+username,post_id,content,media_url,likes,comments,posted_at,link,hashtags,mentions
+example_user_1,p_1001,Kicking off our morning with a quick update.,,42,5,2025-10-20T08:30:00Z,https://www.threads.net/@example_user_1/post/p_1001,"update,morning","team"
+example_user_1,p_1002,Shipping a new feature today!,https://cdn.example.com/img/feature.png,128,12,2025-10-21T10:15:00Z,https://www.threads.net/@example_user_1/post/p_1002,"release,feature",""
